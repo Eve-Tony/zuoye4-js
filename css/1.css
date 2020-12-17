@@ -1,0 +1,473 @@
+body {
+    line-height: 1;
+    background-color: #f4f5f7;
+}
+img {
+    vertical-align: bottom;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.container {
+    width: 1209px;
+    text-align: center;
+    margin: 0 auto;
+}
+.header {
+    height: 101px;
+    position: relative;
+}
+.logo {
+    width: 230px;
+    height: 53px;
+    margin-top: 33px;
+    margin-right: 41px;
+}
+.nav {
+    margin-top: 42px;
+}
+.nav li {
+    float: left;    
+    padding: 0 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav li:hover {
+	border: 2px solid red;
+	background-color: black;
+}
+.nav li:hover a{
+	color: white;
+}
+.nav a {
+    width:241px;
+    height:18px;
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+}
+.form {
+    margin-top: 31px;
+}
+
+.form * {
+    float: left;
+}
+
+.form .search {
+    width: 392px;
+    height: 40px;
+    border: 1px solid #A8A8A8;
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    line-height:31px;
+    padding-left: 19px;
+}
+
+.form .submit {
+    width:50px;
+    height:41px;
+    margin-right: 31px;
+    border:1px solid #A8A8A8;
+    background: #CD2626
+                url(../images/fa-search.png) 
+                no-repeat center center;
+                cursor: pointer;
+}
+.geren {
+	width:60px;
+    height:12px;
+    margin-top: 44px;
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    
+}
+.container >ul>li> .biaodan {
+    z-index: 3;
+	border: 1px solid black;
+	background-color: white;
+	position: absolute;
+	top: 58px;
+	left: 900px;
+	display: none;
+}
+.container > ul>li:hover  .biaodan{
+	display:block;
+}
+.time{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-size: 15px;
+    font-family:Microsoft YaHei;
+    color: #A8A8A8;
+}
+.piaofu{
+    width: 140px;
+    height: 180px;
+    background-color: #22ab38;
+    position: fixed;
+    z-index: 3;
+}
+.piaofu img{
+    width: 140px;
+    height: 150px;
+    position: relative;
+}
+.piaofu p{
+    font-family:Microsoft YaHei;
+    font-size: 12px;
+    color: #f0f8ff;
+}
+.guanbi{
+    font-size: 14px;
+    font-family:Microsoft YaHei;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+}
+.banner {
+    height: 450px;  
+    background-color: #515151; 
+    
+}
+.slide-wrapper {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+}
+.slide-imgs{
+    position: absolute;
+    z-index: 1;
+    width: 4800px;
+    height: 450px;
+}
+.slide-img {
+    width: 800px;
+    height: 450px;
+    float: left;
+}
+.slide-btns {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    z-index: 2;
+    width: 60px;
+    margin: auto;
+}
+ .slide-btn {
+    display: inline-block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+        
+
+.lfj{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    font-size:0.2em;
+    padding:0.4em; 
+    width: 14px;
+    height: 14px;
+    z-index: 2;
+    border-top: 3px solid #b9b9b9;
+    border-right: 3px solid #b9b9b9;
+transform: rotate(45deg);
+}
+.lrj{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    font-size:0.2em;
+    padding:0.4em; 
+    width: 14px;
+    height: 14px;
+    z-index: 2;
+    border-bottom: 3px solid #b9b9b9;
+    border-left: 3px solid #b9b9b9;
+    transform: rotate(45deg);
+}
+.activess{
+    background-color: #20217e;
+}
+.product {
+	background-color:#87CEFA;
+}
+.product-menu {
+	width:1200px;
+    height:60px;
+    margin-top: 8px;
+    margin: 0 auto;
+    border:1px solid rgba(118,118,118,0.2);
+}
+.product-list {
+	padding: 21px 0 0 34px;
+}
+.product-list li {
+	float: left;
+	width: 114px;
+	text-align: center;
+	border-left: 1px solid rgba(191, 191, 191, 1);
+}
+.product-list a{
+	font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:black;
+}
+.product-list li:hover a {
+	color: red;
+}
+.product-list .first {	
+	border-left: 0;
+	margin-right: 10px;
+}
+.first a{
+	color: rgba(0, 164, 255, 1);
+}
+.product-list .last {
+	border-left: 0;
+	float: right;
+}
+.last a {
+	color: rgba(0, 164, 255, 1);
+}
+.product-jp {
+	width: 1005px;
+	margin: 0 auto;
+}
+.product-jp .title {
+	height: 40px;
+	margin-top: 37px;
+	margin-bottom: 10px;
+}
+.product-jp .title p {
+	float: left;
+	font-size:20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(73,73,73,1);
+}
+.product-jp .title a {
+	float: right;
+	font-size:12px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(165,165,165,1);
+	margin-right: 30px;
+}
+.product-jp .content {
+	position: relative;
+}
+.product-jp .content li {
+	float: left;
+	position: relative;
+	width:228px;
+    height:250px;
+    background-color:rgba(255,255,255,1);
+	margin-bottom: 21px;
+	margin-right: 15px; 
+	padding-left: 2px;
+}
+.product-jp .content li:nth-child(4n) {
+	margin-right: 0; 
+}
+.product-jp .content li a img {
+	width: 234px;
+	height: 156px;
+}
+.product-jp .content li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.product-jp .content li a p {
+	margin: 10px 0px; 
+	text-align: center;
+	font-size:18px;
+    font-family:STXihei;
+    font-weight:900;
+    color:rgba(5,5,5,0.8);
+    line-height:20px;
+}
+
+.product-jp .content li a .first {
+	margin-left: 48px;
+	font-size:16px;
+	color: rgba(255, 124, 145, 1);
+}
+
+.product-jp .content li a .thrid {
+	font-size:15px;
+	color: rgba(255, 124, 45, 1);
+}
+.people {
+	width: 1200px;
+	margin: 0 auto;
+}
+.people .people-title {
+	border: 1px solid #C9C9C9;
+	height: 50px;
+	background-image:url(../images/img3.jpg);
+    background-position: 50% 15%;           
+	margin-bottom: 20px;
+}
+.people .people-title1 {
+	font-size:20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:#E0FFFF;
+    margin-bottom: 33px;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.people a {
+	float: right;
+	font-size:12px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:#E8E8E8;
+    margin-top: 20px;
+	margin-right: 30px;
+}
+.people .content3{
+	margin-bottom: 30px;
+}
+.people .content3 li {
+	float: left;
+	position: relative;
+    height:351px;
+    width: 216px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgba(255,255,255,1);	 
+}
+.people .content3 li img {
+	height: 330px;
+	width: 216px;
+}
+.people .content3 li .first2 {
+	width: 175px;
+	font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+	position: absolute;
+	top: 71%;
+	left: 10%;
+}
+.people .content3 li .second2{
+	width: 175px;
+	font-size:12px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+	position: absolute;
+	top: 78%;
+	left: 10%;
+}
+
+.end {
+	height: 200px;
+	background-color:rgba(255,255,255,1);
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin: 0 auto;
+}
+.beijing {
+	width: 1200px;
+	margin: 0 auto;
+}
+.end .end-left {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.end .end-left img {
+	height:80px;
+	width: 200px;
+	margin-bottom: 30px;
+}
+.end .end-left p {
+	font-size:12px;
+    font-family:SimSun;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:18px;
+}
+.end .end-right {
+	margin-top: 30px;
+}
+
+.end .end-right ul {
+	float: left;
+}
+.end .end-right li {
+	margin-right: 150px;
+	font-size: 12px;
+}
+
+.end .end-right .end-first {
+	font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:21px;
+    margin-bottom: 10px;
+} 
+.end .end-right a{
+	font-size:12px;
+    font-family:SimSun;
+    font-weight:400;
+    color:rgba(51, 51, 51, 1);
+    line-height:21px;
+}
+.footer {
+	background-color: white;
+	height: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer p {
+	font-size:12px;
+    font-family:SimSun;
+    font-weight:400;
+    color:rgba(51, 51, 51, 1);
+}
+.footer a{
+	font-size:12px;
+    font-family:SimSun;
+    font-weight:400;
+    color:rgba(51, 51, 51, 1);
+}
+.toTop{
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.toTop img{
+    width: 40px;
+    height: 40px;
+}
+.toTop a{
+    font-size: 12px;
+}
